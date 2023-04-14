@@ -13,6 +13,9 @@ INCLUDE_DIRECTORIES(${PROJECT_SOURCE_DIR}/3rdparts/include/libavcodec)
 INCLUDE_DIRECTORIES(${PROJECT_SOURCE_DIR}/3rdparts/include/libavformat)
 INCLUDE_DIRECTORIES(${PROJECT_SOURCE_DIR}/3rdparts/include/libswscale)
 
+# opencv
+INCLUDE_DIRECTORIES(/home/data/opencv-4.0.1/include/opencv4)
+
 ADD_DEFINITIONS(-DAUTO_EXPORTS)
 
 #SET(3RDPARTS_LIBS "")
